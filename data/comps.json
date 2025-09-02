@@ -1,0 +1,29 @@
+{
+    "market": "Springfield, MO",
+    "property_type": "3BR/2BA Apartment",
+    "average_rent": 1485,
+    "rent_range": {
+        "low": 1285,
+        "high": 3000
+    },
+    "sources": [
+        {
+            "name": "Apartments.com",
+            "url": "https://www.apartments.com/springfield-mo/3-bedrooms/",
+            "data_points": 45
+        },
+        {
+            "name": "Zillow",
+            "url": "https://www.zillow.com/springfield-mo/rentals/3-bedrooms/",
+            "data_points": 38
+        },
+        {
+            "name": "Rent.com",
+            "url": "https://www.rent.com/missouri/springfield-apartments/3-bedroom",
+            "data_points": 28
+        }
+    ],
+    "collected_at": "2025-01-02",
+    "methodology": "Trimmed mean of available 3BR/2BA listings, excluding outliers beyond 2 standard deviations",
+    "notes": "Market data for comparison purposes only. Actual rents vary by location, amenities, and market conditions."
+}

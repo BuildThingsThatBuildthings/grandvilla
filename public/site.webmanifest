@@ -1,0 +1,12 @@
+{
+    "name": "Grand Villa MHC",
+    "short_name": "Grand Villa",
+    "description": "55+ Senior Manufactured Home Community in Springfield, MO",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#1E3A8A",
+    "orientation": "portrait-primary",
+    "categories": ["lifestyle", "real estate"],
+    "lang": "en-US"
+}

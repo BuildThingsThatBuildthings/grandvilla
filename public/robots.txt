@@ -1,0 +1,12 @@
+# Robots.txt for Grand Villa MHC
+
+User-agent: *
+Allow: /
+Disallow: /work/
+Disallow: /qa/
+
+# Sitemap location
+Sitemap: https://grandvillamhc.com/sitemap.xml
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
