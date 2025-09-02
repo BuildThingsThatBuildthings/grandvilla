@@ -52,7 +52,9 @@
     <header class="header" role="banner">
         <nav class="nav-container" role="navigation" aria-label="Main navigation">
             <div class="nav-brand">
-                <a href="#home" class="logo">Grand Villa MHC</a>
+                <a href="#home" class="logo">
+                    <img src="/assets/logo.png" alt="Grand Villa MHC Logo" class="logo-img">
+                </a>
             </div>
             <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
                 <span class="nav-toggle-line"></span>
@@ -77,8 +79,8 @@
     <main id="main" role="main">
         
         <!-- Hero Section -->
-        <section id="home" class="hero" aria-labelledby="hero-heading">
-            <div class="hero-overlay">
+        <section id="home" class="hero" aria-labelledby="hero-heading" style="background-image: url('/assets/hero-image.png'); background-size: cover; background-position: center;">
+            <div class="hero-overlay" style="background: rgba(30, 58, 138, 0.85);">
                 <div class="hero-content">
                     <h1 id="hero-heading" class="hero-title">Grand Villa MHC</h1>
                     <h2 class="hero-hook">
@@ -322,13 +324,8 @@
                 <h2 id="gallery-heading" class="section-title">Community Gallery</h2>
                 <div class="gallery-grid">
                     <div class="gallery-item">
-                        <div class="gallery-placeholder" style="background: linear-gradient(135deg, #1E3A8A 0%, #C41E3A 100%); height: 250px; display: flex; align-items: center; justify-content: center;">
-                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" stroke="white" stroke-width="2">
-                                <path d="M30 15L10 27V45H22V35H38V45H50V27L30 15Z"/>
-                                <path d="M18 35H22M38 35H42"/>
-                            </svg>
-                        </div>
-                        <p class="gallery-caption">Quality manufactured homes with private yards</p>
+                        <img src="/assets/hero-image.png" alt="Grand Villa MHC Community View" loading="lazy" style="width: 100%; height: 250px; object-fit: cover;">
+                        <p class="gallery-caption">Beautiful community grounds at Grand Villa MHC</p>
                     </div>
                     <div class="gallery-item">
                         <div class="gallery-placeholder" style="background: linear-gradient(135deg, #C41E3A 0%, #D4AF37 100%); height: 250px; display: flex; align-items: center; justify-content: center;">
@@ -372,14 +369,15 @@
                         <p class="gallery-caption">Modern homes with convenient parking</p>
                     </div>
                     <div class="gallery-item">
-                        <div class="gallery-placeholder" style="background: linear-gradient(135deg, #D4AF37 0%, #C41E3A 100%); height: 250px; display: flex; align-items: center; justify-content: center;">
+                        <div class="gallery-placeholder" style="background: linear-gradient(135deg, #D4AF37 0%, #C41E3A 100%); height: 250px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
                             <svg width="60" height="60" viewBox="0 0 60 60" fill="none" stroke="white" stroke-width="2">
-                                <rect x="15" y="25" width="30" height="25" rx="2"/>
-                                <path d="M20 25V20C20 17 22 15 30 15C38 15 40 17 40 20V25"/>
-                                <circle cx="30" cy="37" r="3"/>
+                                <rect x="10" y="15" width="40" height="30" rx="2"/>
+                                <path d="M20 25L25 30L35 20"/>
+                                <circle cx="40" cy="20" r="5"/>
                             </svg>
+                            <p style="color: white; margin-top: 10px; font-size: 18px; font-weight: 600;">More Pictures Coming Soon!</p>
                         </div>
-                        <p class="gallery-caption">Welcoming community atmosphere</p>
+                        <p class="gallery-caption">Check back for more community photos</p>
                     </div>
                 </div>
             </div>

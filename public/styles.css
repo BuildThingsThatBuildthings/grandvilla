@@ -171,6 +171,14 @@ button {
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-bold);
     color: var(--color-secondary);
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
+    display: block;
 }
 
 .nav-toggle {
@@ -217,6 +225,7 @@ button {
 .nav-cta {
     background: var(--color-primary);
     color: var(--color-white);
+    white-space: nowrap;
 }
 
 .nav-cta:hover {
@@ -237,6 +246,7 @@ button {
     border: none;
     cursor: pointer;
     text-align: center;
+    white-space: nowrap;
 }
 
 .btn-primary {
@@ -265,6 +275,9 @@ button {
     position: relative;
     min-height: 80vh;
     background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
